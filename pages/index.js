@@ -9,7 +9,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={''}>
+      <main className='flex flex-col justify-center items-center'>
+        <h1 className='mt-8 text-center text-6xl font-bold' style={{color:"#124a63"}}>github timeline.</h1>
         <SearchUser />
       </main>    
       <footer className={'mt-4 text-center font-semibold'}>

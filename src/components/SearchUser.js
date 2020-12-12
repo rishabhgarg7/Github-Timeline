@@ -49,7 +49,7 @@ export default function SearchUser() {
     })
 
     return (
-    <div className='mt-6 flex flex-col justify-center items-center'>
+    <div className='mt-8 flex flex-col justify-center items-center'>
         <form className={formClassnames}  onSubmit={handleSubmit}>
             <input value={userName} onChange={handleUserNameChange} name="userName" disabled={isLoading} className={inputClassnames} type="text" id="username" placeholder="Enter username (@rishabhgrg77)" />
             <button type='submit' disabled={isLoading} className={buttonClassname}>
